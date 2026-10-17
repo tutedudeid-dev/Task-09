@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 9vh;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+}
+
+.logo>a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px; 
+}
+
+.me{
+    display: flex;
+    gap: 4vw;    
+    white-space: nowrap;
+    list-style: none;
+}
+
+.me>li>a{
+    color: gray;
+}
+
+.me>li{
+    color: gray;
+}
+
+.username{
+    position: absolute;
+    right: 20px;
+    border : 2px solid #113C98;
+    background-color: #113C98;
+    height: 5vh;
+    width: 5vw;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.username>a{
+    color:white;;
+    text-decoration: none;
+
+}
+.container{
+    height: 91vh;
+    border: 5px solid;
+    display: flex;
+}
+
+
+.left{
+    border: 5px solid red;
+    width: 50%;
+    height: 100%;
+    background-color: #123d99;
+    display: flex;
+    justify-content: center;
+}
+
+.right{
+    border: 5px solid deepskyblue;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4FBFF;
+    gap: 20px;
+}
+
+.label{
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input{
+    display: block;
+    width: 25vw;
+    height: 60px;
+    border: 2px white solid;
+    border-radius: 13px;
+}
+
+input::placeholder{
+    color: grey;
+    font-weight: 400;
+    font-size: 1.1vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+#fg{
+    color: black;
+    display: block;
+    width: 25vw;
+    text-align: end;
+}
+
+.para{
+    font-weight: 400;
+    font-size: 1.5vw;
+    font-family: Poppins;
+}
+
+.right>h2{
+    color: #113C98;
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+
+.right>p>.register{
+    color: #113C98;    
+}
+
+
+button{
+    display: block;
+    background-color: #113C98;
+    color: white;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 1.4vw;
+    font-family: Poppins;
+    width:20vw;
+    height: 8vh;
+    transition: 600ms ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.regn{
+    font-size: 18px;
+}
